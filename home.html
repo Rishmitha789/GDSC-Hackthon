@@ -1,45 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="home_style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="sectionHome col-12 col-md-7 col-xl">
-        <nav class="navbar navbar-expand-lg navbar-light bg-green">
-            <a class="navbar-brand" href="#">
-                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/navbar-logo-img.png" class="navbar-image" alt="" />ECO ENSEMBLE
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">
-                        Home <span class="sr-only">(current)</span>
+    <div id="sectionHome" style="background-color:#202b36;">
+        <div class="bg-container">
+            <div class="container1">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">
+                        <p class="logo" style="color:#FBFADA;">ECO ENSEMBLE</p>
                     </a>
-                    <a class="nav-link" href="#">Projects based on SDG goals</a>
-                    <a class="nav-link" href="#">Blogs based on SDG goals</a>
-                    <a class="nav-link" href="#">Ideas</a>
-                    <a class="nav-link" href="#">Insights</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#Home" style="font-size:25px;" onclick="redirectTo('file:///C:/Program%20Files/Sublime%20Text%203/rehome.html')">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" style="font-size:25px;" href="#" onclick="redirectTo('http://ushakuruva8574.ccbp.tech')">Blogs</a>
+                            <a class="nav-link" style="font-size:25px;" href="#" onclick="redirectTo('http://sdgproject.ccbp.tech')" >Projects</a>
+                            <a class="nav-link" style="font-size:25px;" href="#" onclick="redirectTo('file:///C:/Program%20Files/Sublime%20Text%203/insightsmain.html')">Insights</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row pt-5">
+                    <div class="col-12 col-md-4 pt-5 order-md-2">
+                        <h1 style="color:ghostwhite; text-align:left; font-size:80px; padding-left:100px;" style="flex justify-content:center;">United for a brighter, more sustainable future. Join the movement.</h1>
+                    </div>
                 </div>
-
-
-            </div>
-        </nav>
-        <div class="bg-container d-flex flex-column justify-content-end">
-            <div class="card">
-                <h1 class="main-heading">Contact us</h1>
-                <img src="https://tse3.mm.bing.net/th?id=OIP.gz-k0gDxQsEdjsVAHjVGoQHaHa&pid=Api&P=0&h=180" class="vishnu" />
             </div>
         </div>
+
+        <div class="pt-5 pb-5 contact">
+            <div class="container" style="height:50%;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="col-12 text-center">
+                            <img src="https://img.freepik.com/free-vector/save-planet-concept-with-people-taking-care-earth_23-2148522570.jpg?w=740&t=st=1706978177~exp=1706978777~hmac=dbc399badd36900ec3db8d29ba5e6689947cd05f0c4fe9264fef13ee4614994c" class="logo">
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mt-2 mb-3">
+                            <div class="follow-us-icon-container"><i class="fab fa-google icon"></i></div>
+                            <div class="follow-us-icon-container"><i class="fab fa-twitter icon"></i></div>
+                            <div class="follow-us-icon-container"><i class="fab fa-instagram icon"></i></div>
+                            <div class="follow-us-icon-container"><i class="fab fa-linkedin icon"></i></div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <p class="details">SDG_CLUB_VISHNU</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="d-flex flex-column mr-3">
+                                <p class="mainheading">Contact Us</p>
+                                <p class="details">ecoensemble@gmail.com</p>
+                                <p class="details">1234506789</p>
+                                <p class="details">ecoensemble</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <hr style="height:1px; border-width:0; color:#5a7184; background-color:#5a7184;">
+                    </div>
+                    <div class="col-12">
+                        <p class="endline">Copyright @ 2024 ecoensemble. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
 </body>
 
 </html>
