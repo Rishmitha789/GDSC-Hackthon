@@ -1,1 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+.logo {
+    font-size: 40px;
+    padding: 8px;
+    font-weight: bold;
+    height:100px;
+    width: 120px;
+    text-decoration:underline;
+}
+
+
+.bg-container{
+  background-image:url("https://img.freepik.com/premium-vector/vector-illustration-united-nations-public-service-day-template-background-banner-card_651618-185.jpg?w=740");
+  background-size: cover;
+  height: 200vh;
+  object-fit:cover;  
+  transition: background-image 0.5s ease;
+}
+
+.container1{
+  background-color: black;
+  opacity:0.7;
+  height: 200vh;
+  object-fit:cover;
+  background-size: cover;
+  width:100%;
+
+}
+
+.bg-container:hover {
+  /* Change the background image on hover */
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-sdg-illustration_23-2149416595.jpg?w=740&t=st=1706952854~exp=1706953454~hmac=5bee9230442aab8cae0769480b5906450e650c5c3d65b04351021998372a75ba");
+  height: 190vh;
+  object-fit:cover;
+  background-size: cover;
+}
+
+
+
+
+.background-container {
+    background-color: #19232d;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.contact {
+    background-color: #19232d;
+    text-align: center;
+    color: #5a7184;
+}
+
+.follow-us-icon-container {
+    background-color: #202b36;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.details {
+    font-size: 20px;
+}
+
+.mainheading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.endline {
+    color: #959ead;
+    font-size: 20px;
+}
+
+.homecontainer {
+    background-color:floralwhite;
+}
+
+
+.heading2 {
+    color: #12372A;
+    font-size: 45px;
+}
+
+.homecontainer1 {
+    background-color:whitesmoke;
+    border-radius: 20px;
+}
+
+.image {
+    height: 40%;
+    background-size: cover;
+}
+
+
+.heading4 {
+    color:black;
+    font-size: 35px;
+}
+
+.description {
+    color: black;
+    font-size: 25px;
+}
